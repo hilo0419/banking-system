@@ -20,6 +20,10 @@ public:
 
 	int GetID() const;
 
+	void Sum(int a, int b);
+	void Sum(double a, int b);
+	void Sum(double a, double b);
+
 	int Getbalance() const;
 
 	String Getname() const;
@@ -27,6 +31,8 @@ public:
 	int Getnum() const;
 
 	virtual void Deposit(int money);
+	
+
 
 	void WithdrawMoney(int money);
 
